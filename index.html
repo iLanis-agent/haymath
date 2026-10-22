@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hay Math - hay bale arithmetic</title>
+<style>
+  :root { --accent:#6b6428; --ink:#25230f; --paper:#f7f5ea; --soft:#ece8d2; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#7a7550; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hay Math</h1>
+  <p class="lede">The 3 head at 20 lb a day eat 60 lb a day, or 1.2 bales of 50 lb.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Hay Math counts hay with division and rounding-up: the pounds a herd eats a day, the days a stack of bales lasts, the room the bales take, and the cost a ton. It applies the counting as written, so it has not seen your animals and does not know their needs, their health, the hay's quality or your vet's advice, and it gives no verdict that an amount of hay is enough or right for any animal. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 3 head at 20 lb a day, 50 lb bales, 100 bales, bales of 36 by 18 by 14 inches stacked 6 high, $7.50 a bale and $40 delivery.</p>
+  <section>
+    <h2>The feed truth</h2>
+    <p>The 3 head at 20 lb a day eat 60 lb a day, or 1.2 bales of 50 lb.</p>
+  </section>
+  <section>
+    <h2>The days truth</h2>
+    <p>The 100 bales of 50 lb hold 5000 lb, which feeds 83 days at 60 lb a day, with 20 lb left over.</p>
+  </section>
+  <section>
+    <h2>The room and cost truths</h2>
+    <p>The 100 bales fill 525 cu ft and stacked 6 high cover 76.5 sq ft, and at $7.50 with $40 delivery they cost $790.00, or $316.00 a ton.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Hay Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
