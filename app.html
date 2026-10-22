@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hay Math - app</title>
+<style>
+  :root { --accent:#6b6428; --ink:#25230f; --paper:#f7f5ea; --soft:#ece8d2; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #beb88f; border-radius:6px; background:#fff; color:var(--ink); }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #beb88f; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#7a7550; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hay Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page counts hay with division and rounding-up: the pounds a herd eats a day, the days a stack of bales lasts, the room the bales take, and the cost a ton. The head count, the pounds a day, the bale weight and size and the prices are yours to weigh and measure off your own scale and seller ticket. It applies the counting as written, so it has not seen your animals and does not know their needs, their health, the hay's quality or your vet's advice, and it gives no verdict that an amount of hay is enough or right for any animal. Every number here is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The feed truth</h2>
+    <p class="note">Feed: the head times the pounds a day, over the bale weight.</p>
+    <div class="row2"><div><label for="f-h">Head</label><input id="f-h" type="text" value="3"></div><div><label for="f-d">Pounds a day each</label><input id="f-d" type="text" value="20"></div></div>
+    <div class="row2"><div><label for="f-b">Bale weight (lb)</label><input id="f-b" type="text" value="50"></div></div>
+    <div class="out" id="f-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The days truth</h2>
+    <p class="note">Days: the pounds in the bales divided by the pounds a day, rounded down.</p>
+    <div class="row2"><div><label for="d-n">Bales</label><input id="d-n" type="text" value="100"></div><div><label for="d-b">Bale weight (lb)</label><input id="d-b" type="text" value="50"></div></div>
+    <div class="row2"><div><label for="d-d">Herd pounds a day</label><input id="d-d" type="text" value="60"></div></div>
+    <div class="out" id="d-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The room truth</h2>
+    <p class="note">Room: the bale size times the count, and the floor the stacks cover.</p>
+    <div class="row2"><div><label for="r-n">Bales</label><input id="r-n" type="text" value="100"></div><div><label for="r-k">Stack height (bales)</label><input id="r-k" type="text" value="6"></div></div>
+    <div class="row2"><div><label for="r-l">Length (inches)</label><input id="r-l" type="text" value="36"></div><div><label for="r-w">Width (inches)</label><input id="r-w" type="text" value="18"></div></div>
+    <div class="row2"><div><label for="r-h">Height (inches)</label><input id="r-h" type="text" value="14"></div></div>
+    <div class="out" id="r-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The cost truth</h2>
+    <p class="note">Cost: the bales at their price plus delivery, and what that is a ton.</p>
+    <div class="row2"><div><label for="c-n">Bales</label><input id="c-n" type="text" value="100"></div><div><label for="c-p">Price per bale (dollars)</label><input id="c-p" type="text" value="7.50"></div></div>
+    <div class="row2"><div><label for="c-f">Delivery (dollars)</label><input id="c-f" type="text" value="40"></div><div><label for="c-b">Bale weight (lb)</label><input id="c-b" type="text" value="50"></div></div>
+    <div class="out" id="c-out"></div>
+  </div>
+
+  <footer>Hay Math is exact arithmetic over the numbers you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("f-out", () => feedTruth(v("f-h"), v("f-d"), v("f-b")));
+    show("d-out", () => daysTruth(v("d-n"), v("d-b"), v("d-d")));
+    show("r-out", () => roomTruth(v("r-n"), v("r-l"), v("r-w"), v("r-h"), v("r-k")));
+    show("c-out", () => costTruth(v("c-n"), v("c-p"), v("c-f"), v("c-b")));
+  }
+  document.querySelectorAll("input").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
