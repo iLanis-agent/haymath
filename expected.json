@@ -1,0 +1,1020 @@
+{
+ "cases": [
+  {
+   "fn": "feed",
+   "args": [
+    "3",
+    "20",
+    "50"
+   ],
+   "expect": "The 3 head at 20 lb a day eat 60 lb a day, or 1.2 bales of 50 lb."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "100",
+    "50",
+    "60"
+   ],
+   "expect": "The 100 bales of 50 lb hold 5000 lb, which feeds 83 days at 60 lb a day, with 20 lb left over."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "100",
+    "36",
+    "18",
+    "14",
+    "6"
+   ],
+   "expect": "The 100 bales of 36 by 18 by 14 inches fill 525 cu ft, and stacked 6 high cover 76.5 sq ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100",
+    "7.50",
+    "40",
+    "50"
+   ],
+   "expect": "The 100 bales at $7.5 and $40 delivery cost $790.00, or $316.00 a ton."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "471",
+    "70",
+    "1266"
+   ],
+   "expect": "The 471 head at 70 lb a day eat 32970 lb a day, or 26.04 bales of 1266 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "887",
+    "156",
+    "768"
+   ],
+   "expect": "The 887 head at 156 lb a day eat 138372 lb a day, or 180.17 bales of 768 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "742",
+    "27",
+    "202"
+   ],
+   "expect": "The 742 head at 27 lb a day eat 20034 lb a day, or 99.18 bales of 202 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "234",
+    "143",
+    "1200"
+   ],
+   "expect": "The 234 head at 143 lb a day eat 33462 lb a day, or 27.89 bales of 1200 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "936",
+    "48",
+    "1882"
+   ],
+   "expect": "The 936 head at 48 lb a day eat 44928 lb a day, or 23.87 bales of 1882 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "324",
+    "200",
+    "802"
+   ],
+   "expect": "The 324 head at 200 lb a day eat 64800 lb a day, or 80.8 bales of 802 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "244",
+    "47",
+    "744"
+   ],
+   "expect": "The 244 head at 47 lb a day eat 11468 lb a day, or 15.41 bales of 744 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "547",
+    "14",
+    "934"
+   ],
+   "expect": "The 547 head at 14 lb a day eat 7658 lb a day, or 8.2 bales of 934 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "446",
+    "148",
+    "1458"
+   ],
+   "expect": "The 446 head at 148 lb a day eat 66008 lb a day, or 45.27 bales of 1458 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "544",
+    "84",
+    "1686"
+   ],
+   "expect": "The 544 head at 84 lb a day eat 45696 lb a day, or 27.1 bales of 1686 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "745",
+    "89",
+    "323"
+   ],
+   "expect": "The 745 head at 89 lb a day eat 66305 lb a day, or 205.28 bales of 323 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "548",
+    "69",
+    "807"
+   ],
+   "expect": "The 548 head at 69 lb a day eat 37812 lb a day, or 46.86 bales of 807 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "557",
+    "143",
+    "1052"
+   ],
+   "expect": "The 557 head at 143 lb a day eat 79651 lb a day, or 75.71 bales of 1052 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "718",
+    "162",
+    "56"
+   ],
+   "expect": "The 718 head at 162 lb a day eat 116316 lb a day, or 2077.07 bales of 56 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "440",
+    "31",
+    "562"
+   ],
+   "expect": "The 440 head at 31 lb a day eat 13640 lb a day, or 24.27 bales of 562 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "71",
+    "107",
+    "265"
+   ],
+   "expect": "The 71 head at 107 lb a day eat 7597 lb a day, or 28.67 bales of 265 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "411",
+    "182",
+    "1864"
+   ],
+   "expect": "The 411 head at 182 lb a day eat 74802 lb a day, or 40.13 bales of 1864 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "92",
+    "52",
+    "1394"
+   ],
+   "expect": "The 92 head at 52 lb a day eat 4784 lb a day, or 3.43 bales of 1394 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "534",
+    "25",
+    "1565"
+   ],
+   "expect": "The 534 head at 25 lb a day eat 13350 lb a day, or 8.53 bales of 1565 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "11",
+    "191",
+    "829"
+   ],
+   "expect": "The 11 head at 191 lb a day eat 2101 lb a day, or 2.53 bales of 829 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "41",
+    "196",
+    "1567"
+   ],
+   "expect": "The 41 head at 196 lb a day eat 8036 lb a day, or 5.13 bales of 1567 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "560",
+    "128",
+    "1179"
+   ],
+   "expect": "The 560 head at 128 lb a day eat 71680 lb a day, or 60.8 bales of 1179 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "341",
+    "92",
+    "110"
+   ],
+   "expect": "The 341 head at 92 lb a day eat 31372 lb a day, or 285.2 bales of 110 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "859",
+    "169",
+    "1454"
+   ],
+   "expect": "The 859 head at 169 lb a day eat 145171 lb a day, or 99.84 bales of 1454 lb."
+  },
+  {
+   "fn": "feed",
+   "args": [
+    "517",
+    "41",
+    "1312"
+   ],
+   "expect": "The 517 head at 41 lb a day eat 21197 lb a day, or 16.16 bales of 1312 lb."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "526452",
+    "131",
+    "18547"
+   ],
+   "expect": "The 526452 bales of 131 lb hold 68965212 lb, which feeds 3718 days at 18547 lb a day, with 7466 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "91892",
+    "1291",
+    "727069"
+   ],
+   "expect": "The 91892 bales of 1291 lb hold 118632572 lb, which feeds 163 days at 727069 lb a day, with 120325 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "638836",
+    "858",
+    "375486"
+   ],
+   "expect": "The 638836 bales of 858 lb hold 548121288 lb, which feeds 1459 days at 375486 lb a day, with 287214 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "409517",
+    "1340",
+    "315431"
+   ],
+   "expect": "The 409517 bales of 1340 lb hold 548752780 lb, which feeds 1739 days at 315431 lb a day, with 218271 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "656251",
+    "1433",
+    "202974"
+   ],
+   "expect": "The 656251 bales of 1433 lb hold 940407683 lb, which feeds 4633 days at 202974 lb a day, with 29141 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "270188",
+    "1808",
+    "650752"
+   ],
+   "expect": "The 270188 bales of 1808 lb hold 488499904 lb, which feeds 750 days at 650752 lb a day, with 435904 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "669696",
+    "237",
+    "956397"
+   ],
+   "expect": "The 669696 bales of 237 lb hold 158717952 lb, which feeds 165 days at 956397 lb a day, with 912447 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "928180",
+    "569",
+    "475345"
+   ],
+   "expect": "The 928180 bales of 569 lb hold 528134420 lb, which feeds 1111 days at 475345 lb a day, with 26125 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "233824",
+    "1174",
+    "344142"
+   ],
+   "expect": "The 233824 bales of 1174 lb hold 274509376 lb, which feeds 797 days at 344142 lb a day, with 228202 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "112486",
+    "1059",
+    "522513"
+   ],
+   "expect": "The 112486 bales of 1059 lb hold 119122674 lb, which feeds 227 days at 522513 lb a day, with 512223 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "184026",
+    "1757",
+    "382101"
+   ],
+   "expect": "The 184026 bales of 1757 lb hold 323333682 lb, which feeds 846 days at 382101 lb a day, with 76236 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "657445",
+    "429",
+    "391591"
+   ],
+   "expect": "The 657445 bales of 429 lb hold 282043905 lb, which feeds 720 days at 391591 lb a day, with 98385 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "46065",
+    "1102",
+    "560364"
+   ],
+   "expect": "The 46065 bales of 1102 lb hold 50763630 lb, which feeds 90 days at 560364 lb a day, with 330870 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "536658",
+    "1700",
+    "691454"
+   ],
+   "expect": "The 536658 bales of 1700 lb hold 912318600 lb, which feeds 1319 days at 691454 lb a day, with 290774 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "863499",
+    "1319",
+    "172120"
+   ],
+   "expect": "The 863499 bales of 1319 lb hold 1138955181 lb, which feeds 6617 days at 172120 lb a day, with 37141 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "809276",
+    "39",
+    "429011"
+   ],
+   "expect": "The 809276 bales of 39 lb hold 31561764 lb, which feeds 73 days at 429011 lb a day, with 243961 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "954710",
+    "1204",
+    "460064"
+   ],
+   "expect": "The 954710 bales of 1204 lb hold 1149470840 lb, which feeds 2498 days at 460064 lb a day, with 230968 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "592735",
+    "1335",
+    "93412"
+   ],
+   "expect": "The 592735 bales of 1335 lb hold 791301225 lb, which feeds 8471 days at 93412 lb a day, with 8173 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "762335",
+    "867",
+    "77773"
+   ],
+   "expect": "The 762335 bales of 867 lb hold 660944445 lb, which feeds 8498 days at 77773 lb a day, with 29491 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "797007",
+    "1430",
+    "916761"
+   ],
+   "expect": "The 797007 bales of 1430 lb hold 1139720010 lb, which feeds 1243 days at 916761 lb a day, with 186087 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "843480",
+    "1569",
+    "110338"
+   ],
+   "expect": "The 843480 bales of 1569 lb hold 1323420120 lb, which feeds 11994 days at 110338 lb a day, with 26148 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "159629",
+    "1668",
+    "815688"
+   ],
+   "expect": "The 159629 bales of 1668 lb hold 266261172 lb, which feeds 326 days at 815688 lb a day, with 346884 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "466418",
+    "1715",
+    "425612"
+   ],
+   "expect": "The 466418 bales of 1715 lb hold 799906870 lb, which feeds 1879 days at 425612 lb a day, with 181922 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "320506",
+    "228",
+    "286579"
+   ],
+   "expect": "The 320506 bales of 228 lb hold 73075368 lb, which feeds 254 days at 286579 lb a day, with 284302 lb left over."
+  },
+  {
+   "fn": "days",
+   "args": [
+    "565677",
+    "147",
+    "2640"
+   ],
+   "expect": "The 565677 bales of 147 lb hold 83154519 lb, which feeds 31497 days at 2640 lb a day, with 2439 lb left over."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "958867",
+    "123",
+    "153",
+    "116",
+    "14"
+   ],
+   "expect": "The 958867 bales of 123 by 153 by 116 inches fill 1211348666.94 cu ft, and stacked 14 high cover 8950917.56 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "40490",
+    "103",
+    "68",
+    "184",
+    "18"
+   ],
+   "expect": "The 40490 bales of 103 by 68 by 184 inches fill 30197292.04 cu ft, and stacked 18 high cover 109437.5 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "120691",
+    "136",
+    "122",
+    "65",
+    "14"
+   ],
+   "expect": "The 120691 bales of 136 by 122 by 65 inches fill 75325711.62 cu ft, and stacked 14 high cover 993330.78 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "870574",
+    "14",
+    "173",
+    "93",
+    "5"
+   ],
+   "expect": "The 870574 bales of 14 by 173 by 93 inches fill 113479925.47 cu ft, and stacked 5 high cover 2928517.57 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "9644",
+    "198",
+    "65",
+    "164",
+    "11"
+   ],
+   "expect": "The 9644 bales of 198 by 65 by 164 inches fill 11779744.17 cu ft, and stacked 11 high cover 78381.88 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "536792",
+    "40",
+    "5",
+    "123",
+    "11"
+   ],
+   "expect": "The 536792 bales of 40 by 5 by 123 inches fill 7641830.56 cu ft, and stacked 11 high cover 67777.78 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "833140",
+    "15",
+    "172",
+    "71",
+    "14"
+   ],
+   "expect": "The 833140 bales of 15 by 172 by 71 inches fill 88318625.69 cu ft, and stacked 14 high cover 1066220.83 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "442443",
+    "107",
+    "169",
+    "71",
+    "4"
+   ],
+   "expect": "The 442443 bales of 107 by 169 by 71 inches fill 328732332.52 cu ft, and stacked 4 high cover 13890129.95 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "63795",
+    "128",
+    "56",
+    "100",
+    "6"
+   ],
+   "expect": "The 63795 bales of 128 by 56 by 100 inches fill 26463111.11 cu ft, and stacked 6 high cover 529287.11 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "128097",
+    "179",
+    "173",
+    "96",
+    "19"
+   ],
+   "expect": "The 128097 bales of 179 by 173 by 96 inches fill 220376655.5 cu ft, and stacked 19 high cover 1449857.74 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "693923",
+    "137",
+    "95",
+    "114",
+    "1"
+   ],
+   "expect": "The 693923 bales of 137 by 95 by 114 inches fill 595822045.33 cu ft, and stacked 1 high cover 62718110.03 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "349703",
+    "171",
+    "24",
+    "1",
+    "1"
+   ],
+   "expect": "The 349703 bales of 171 by 24 by 1 inches fill 830544.63 cu ft, and stacked 1 high cover 9966535.5 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "906516",
+    "21",
+    "60",
+    "30",
+    "18"
+   ],
+   "expect": "The 906516 bales of 21 by 60 by 30 inches fill 19830037.5 cu ft, and stacked 18 high cover 440667.5 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "24114",
+    "31",
+    "79",
+    "61",
+    "19"
+   ],
+   "expect": "The 24114 bales of 31 by 79 by 61 inches fill 2084702.75 cu ft, and stacked 19 high cover 21598.82 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "188443",
+    "84",
+    "47",
+    "164",
+    "3"
+   ],
+   "expect": "The 188443 bales of 84 by 47 by 164 inches fill 70608545.19 cu ft, and stacked 3 high cover 1722177.92 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "677268",
+    "63",
+    "60",
+    "125",
+    "19"
+   ],
+   "expect": "The 677268 bales of 63 by 60 by 125 inches fill 185190468.75 cu ft, and stacked 19 high cover 935707.5 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "413905",
+    "10",
+    "95",
+    "29",
+    "19"
+   ],
+   "expect": "The 413905 bales of 10 by 95 by 29 inches fill 6599006.22 cu ft, and stacked 19 high cover 143720.49 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "178743",
+    "187",
+    "69",
+    "117",
+    "12"
+   ],
+   "expect": "The 178743 bales of 187 by 69 by 117 inches fill 156157146.23 cu ft, and stacked 12 high cover 1334743.67 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "462348",
+    "194",
+    "41",
+    "111",
+    "4"
+   ],
+   "expect": "The 462348 bales of 194 by 41 by 111 inches fill 236229325.88 cu ft, and stacked 4 high cover 6384576.38 sq ft."
+  },
+  {
+   "fn": "room",
+   "args": [
+    "313046",
+    "173",
+    "24",
+    "100",
+    "16"
+   ],
+   "expect": "The 313046 bales of 173 by 24 by 100 inches fill 75217997.22 cu ft, and stacked 16 high cover 564153 sq ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "562715",
+    "2961.31",
+    "967.14",
+    "1193"
+   ],
+   "expect": "The 562715 bales at $2961.31 and $967.14 delivery cost $1666374523.79, or $4964.48 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "376122",
+    "3097.47",
+    "4682.58",
+    "1660"
+   ],
+   "expect": "The 376122 bales at $3097.47 and $4682.58 delivery cost $1165031293.92, or $3731.91 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "183428",
+    "554.12",
+    "9960.85",
+    "874"
+   ],
+   "expect": "The 183428 bales at $554.12 and $9960.85 delivery cost $101651084.21, or $1268.13 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "148355",
+    "37.09",
+    "6305.61",
+    "1448"
+   ],
+   "expect": "The 148355 bales at $37.09 and $6305.61 delivery cost $5508792.56, or $51.29 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "714090",
+    "8510.71",
+    "8308.82",
+    "645"
+   ],
+   "expect": "The 714090 bales at $8510.71 and $8308.82 delivery cost $6077421212.72, or $26389.83 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "277924",
+    "6348.74",
+    "2711.99",
+    "273"
+   ],
+   "expect": "The 277924 bales at $6348.74 and $2711.99 delivery cost $1764469927.75, or $46510.99 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "231121",
+    "660.39",
+    "4645.03",
+    "105"
+   ],
+   "expect": "The 231121 bales at $660.39 and $4645.03 delivery cost $152634642.22, or $12579.24 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "410598",
+    "3547.89",
+    "9125.96",
+    "767"
+   ],
+   "expect": "The 410598 bales at $3547.89 and $9125.96 delivery cost $1456765664.18, or $9251.40 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "499546",
+    "9457.53",
+    "3417.19",
+    "446"
+   ],
+   "expect": "The 499546 bales at $9457.53 and $3417.19 delivery cost $4724474698.57, or $42410.48 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "338990",
+    "9010.91",
+    "8286.55",
+    "414"
+   ],
+   "expect": "The 338990 bales at $9010.91 and $8286.55 delivery cost $3054616667.45, or $43531.08 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "116984",
+    "3643.08",
+    "2744.69",
+    "1586"
+   ],
+   "expect": "The 116984 bales at $3643.08 and $2744.69 delivery cost $426184815.41, or $4594.08 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2256",
+    "4494.07",
+    "9795.19",
+    "1749"
+   ],
+   "expect": "The 2256 bales at $4494.07 and $9795.19 delivery cost $10148417.11, or $5143.98 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "432711",
+    "9913.12",
+    "6781.17",
+    "956"
+   ],
+   "expect": "The 432711 bales at $9913.12 and $6781.17 delivery cost $4289522849.49, or $20738.78 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "150000",
+    "6994.68",
+    "7092.43",
+    "913"
+   ],
+   "expect": "The 150000 bales at $6994.68 and $7092.43 delivery cost $1049209092.43, or $15322.51 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "213604",
+    "7288.81",
+    "8119.54",
+    "797"
+   ],
+   "expect": "The 213604 bales at $7288.81 and $8119.54 delivery cost $1556927090.78, or $18290.71 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "601252",
+    "4829.89",
+    "4117.46",
+    "1091"
+   ],
+   "expect": "The 601252 bales at $4829.89 and $4117.46 delivery cost $2903985139.74, or $8854.07 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "381849",
+    "5106.28",
+    "6194.34",
+    "620"
+   ],
+   "expect": "The 381849 bales at $5106.28 and $6194.34 delivery cost $1949834106.06, or $16471.92 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "435107",
+    "5967.68",
+    "6602.32",
+    "801"
+   ],
+   "expect": "The 435107 bales at $5967.68 and $6602.32 delivery cost $2596585944.08, or $14900.61 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "267340",
+    "8452.77",
+    "303.56",
+    "192"
+   ],
+   "expect": "The 267340 bales at $8452.77 and $303.56 delivery cost $2259763835.36, or $88049.70 a ton."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "670636",
+    "7956.97",
+    "5326.17",
+    "1448"
+   ],
+   "expect": "The 670636 bales at $7956.97 and $5326.17 delivery cost $5336235859.09, or $10990.30 a ton."
+  }
+ ],
+ "errors": [
+  [
+   "feed",
+   [
+    "0",
+    "20",
+    "50"
+   ]
+  ],
+  [
+   "feed",
+   [
+    "3",
+    "0",
+    "50"
+   ]
+  ],
+  [
+   "feed",
+   [
+    "3",
+    "20",
+    "0"
+   ]
+  ],
+  [
+   "days",
+   [
+    "0",
+    "50",
+    "60"
+   ]
+  ],
+  [
+   "days",
+   [
+    "100",
+    "0",
+    "60"
+   ]
+  ],
+  [
+   "days",
+   [
+    "100",
+    "50",
+    "0"
+   ]
+  ],
+  [
+   "room",
+   [
+    "100",
+    "0",
+    "18",
+    "14",
+    "6"
+   ]
+  ],
+  [
+   "room",
+   [
+    "100",
+    "36",
+    "18",
+    "14",
+    "0"
+   ]
+  ],
+  [
+   "room",
+   [
+    "100",
+    "36",
+    "18",
+    "14",
+    "21"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100",
+    "0",
+    "40",
+    "50"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100",
+    "7.50",
+    "0",
+    "50"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "7.50",
+    "40",
+    "50"
+   ]
+  ]
+ ]
+}
